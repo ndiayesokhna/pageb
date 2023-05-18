@@ -1,0 +1,103 @@
+@media screen and (max-width: 576px) {
+
+    .para1,
+    .para2{
+        display: none;
+    }
+
+    /* navbar */
+    ul li{
+        margin: 0px;
+    }
+    ul li .nav-link{
+        font-size: 13px;
+        font-weight: bold;
+        display: inline-block;
+        color: #fff;
+    }
+    .fa-bars-staggered{
+        color: #fff;
+    }
+    .navbar-nav{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .fa-bars-staggered{
+        left: 250px;
+    }
+
+    /* home */
+    #texte{
+        top: 270px;
+    }
+    .promise{
+        margin-top: 500px;
+    }
+
+    /* about */
+    #about{
+        background-color: #F6E1C5;
+        bottom: -550px;
+    }
+    .footer2{
+        background-color: #311919;
+        color: #fff;
+        margin-top: 600px;
+    }
+
+    /* products */
+    .product1,
+    .product2,
+    .product3{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    }
+    .products-txt{
+        background-color: #F6E1C5;
+        position: relative;
+        top: 0px;
+    }
+    .large-txt{
+        background-color: #F6E1C5;
+        position: relative;
+        bottom: 0px;
+    }
+
+    /* store */
+    .horaires{
+        margin-left: 50px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .navbar-nav{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .fa-bars-staggered{
+        left: 600px;
+    }
+    /* home */
+    #texte{
+        top: 400px;
+    }
+    .promise{
+        margin-top: 430px;
+    }
+
+
+    /* about */
+    #about{
+        background-color: #F6E1C5;
+        bottom: -300px;
+    }
+    .footer2{
+        background-color: #311919;
+        color: #fff;
+        margin-top: 350px;
+    }
+}

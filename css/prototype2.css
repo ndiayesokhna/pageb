@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Strawberries-delicious-fruit-black-background_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.para1{
+    color: #CB0D0D;
+}
+.para2{
+    font-size: 100px;
+    letter-spacing: 1px;
+    color: white;
+}
+.navbar{
+    background: #490909;
+    padding: 33px;
+}
+ul li{
+    margin: 17px;
+}
+ul .nav-item .nav-link{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.fa-bars-staggered{
+    color: #fff;
+}
+
+#texte{
+    background-color: #F6E1C5;
+}
+#texte a{
+    text-decoration: none;
+    background-color: #7B261A;
+    color: #fff;
+}
+.promise{
+    margin-top: 100px;
+}
+.footer{
+    background-color: #311919;
+    color: #fff;
+}
+
+#about{
+    background-color: #F6E1C5;
+    bottom: -220px;
+}
+
+.footer2{
+    background-color: #311919;
+    color: #fff;
+    margin-top: 333px;
+}
+
+.product-txt{
+    background-color: #F6E1C5;
+    position: relative;
+    top: 70px;
+}
+.large-txt{
+    background-color: #F6E1C5;
+    position: relative;
+    bottom: 90px;
+}
+.footer3{
+    background-color: #311919;
+    color: #fff;
+}
+
+.horaire{
+    margin-left: 0px;
+}
+
+.red{
+    color: #A5342B;
+}
